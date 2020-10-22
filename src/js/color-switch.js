@@ -33,7 +33,6 @@ function onStartBtnClick() {
   startBtn.disabled = true;
   stopBtn.disabled = false;
   intervalId = setInterval(switcher, 1000);
-  return intervalId;
 }
 
 function onStopBtnClick() {
